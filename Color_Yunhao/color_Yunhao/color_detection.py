@@ -44,7 +44,7 @@ def quantify_colors(imgpath, numberofcolors):
     return dominant, palette, counts, img
 
 if __name__ == '__main__':
-    imgpath = '/Users/huangyunhao/Desktop/testreader/Color_Yunhao/1_1_positive_white_background.bmp'  # Change to your new image path
+    imgpath = '/Users/huangyunhao/Desktop/Second experiment/1-1_positive_1.bmp'  # Change to your new image path
     numberofcolors = 5
     dominant, palette, counts, img = quantify_colors(imgpath, numberofcolors)
     print("Dominant Color (RGB):", dominant)
